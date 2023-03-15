@@ -1,0 +1,9 @@
+@import url(../../colores.css);
+
+
+.navbar__busqueda__box{
+    display: flex;
+    justify-content: center;
+    border: solid 2px var(--background-2);
+
+}

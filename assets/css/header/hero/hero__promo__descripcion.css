@@ -1,0 +1,10 @@
+@import url(../../colores.css);
+
+
+.hero__promo__descripcion {
+    font-family: 'Bungee Inline', cursive;
+    color: var(--color-letra-secundario);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    
+}

@@ -1,0 +1,19 @@
+@import url(../colores.css);
+
+
+.agregar__info__boton{
+    background-color: var(--color-caracteristico);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: content-box;
+    width: 100%;
+    height: 2rem;
+
+    color: var(--color-letra-secundario);    
+}
+
+.agregar__info__boton:hover{
+    background-color: var(--color-caracteristico2);
+}

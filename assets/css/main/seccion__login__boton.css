@@ -1,0 +1,19 @@
+@import url(../colores.css);
+
+
+.seccion__login__boton{
+    background-color: var(--color-caracteristico);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: content-box;
+    width: 10%;
+    height: 10%;
+
+    color: var(--color-letra-secundario);    
+}
+
+.seccion__login__boton:hover{
+    background-color: var(--color-caracteristico2);
+}

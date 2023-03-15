@@ -1,0 +1,6 @@
+.agregar__info__descripcion{
+    resize: none;
+    box-sizing: content-box;
+    width: 100%;
+    height: 5rem;
+}

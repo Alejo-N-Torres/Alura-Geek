@@ -1,0 +1,6 @@
+.seccion__contacto__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+}

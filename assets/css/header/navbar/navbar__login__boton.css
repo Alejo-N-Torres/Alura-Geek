@@ -1,0 +1,24 @@
+@import url(../../colores.css);
+
+
+.navbar__login__boton{
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    border: solid 1px var(--color-caracteristico);
+    display: flex;
+}
+.navbar__login__boton a{
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.navbar__login__boton:hover{
+    background-color: var(--color-caracteristico);
+}
+.navbar__login__boton a:hover{
+    color: var(--color-letra-secundario);
+
+}

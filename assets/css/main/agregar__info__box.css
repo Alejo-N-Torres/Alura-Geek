@@ -1,0 +1,10 @@
+.agregar__info__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 30%;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}

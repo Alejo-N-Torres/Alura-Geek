@@ -1,0 +1,12 @@
+@import url(../../colores.css);
+
+.navbar__busqueda__icon{
+    border: none;
+
+    /*color: var(--color-letra-principal);*/
+}
+
+.navbar__busqueda__icon:hover{
+    color: var(--background);
+    background-color: var(--background);
+}

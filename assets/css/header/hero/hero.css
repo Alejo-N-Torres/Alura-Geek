@@ -1,0 +1,7 @@
+@import url(../../colores.css);
+
+.hero{
+    background-image: url(../../../img/header/Hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,6 @@
+@import url(../../colores.css);
+
+.seccion__contacto__title{
+    font-weight: 700;
+    color: var(--color-caracteristico);
+}

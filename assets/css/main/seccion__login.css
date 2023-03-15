@@ -1,0 +1,11 @@
+@import url(../colores.css);
+
+.seccion__login{
+    height: calc(100vh - 475px);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--background);
+}

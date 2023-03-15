@@ -1,0 +1,6 @@
+.contacto__mensaje{
+    resize: none;
+    box-sizing: content-box;
+    width: 100%;
+    height: 4rem;
+}

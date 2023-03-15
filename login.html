@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__busqueda.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__busqueda__box.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__busqueda__icon.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__login.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__login__boton.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__logo.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__title.css">
+  <link rel="stylesheet" href="./assets/css/header/navbar/navbar__title__box.css">
+
+  <link rel="stylesheet" href="./assets/css/main/seccion__login.css">
+  <link rel="stylesheet" href="./assets/css/main/seccion__login__boton.css">
+  <link rel="stylesheet" href="./assets/css/main/seccion__login__email.css">
+  <link rel="stylesheet" href="./assets/css/main/seccion__login__password.css">
+  <link rel="stylesheet" href="./assets/css/main/seccion__login__title.css">
+
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto__boton.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto__info.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto__mensaje.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto__nombre.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/contacto__title.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/seccion__contacto.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/seccion__contacto__link.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/seccion__contacto__logo.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/seccion__contacto__title.css">
+  <link rel="stylesheet" href="./assets/css/footer/contacto/seccion__contacto__title__box.css">
+
+  <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie.css">
+  <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie__info.css">
+  <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie__titulo.css">
+  
+  <title>AluraGeek</title>
+</head>
+
+<!-------------------------------------------------------------------------------------------->
+
+<body class="cuerpo__productos"> 
+
+  <header class="navbar__box">
+
+    <div class="navbar">
+
+      <div class="navbar__title__box">
+        <img src="./assets/img/logo1.svg" class="navbar__logo">
+        <h1 class="navbar__title">Alura Geek</h1>
+      </div>
+
+      <div class="navbar__busqueda__box">
+        <input type="search" name="" id="" class="navbar__busqueda" placeholder="¿Que deseas buscar?">
+        <img src="./assets/img/header/busqueda-icon.svg" alt="" class="navbar__busqueda__icon">
+      </div>
+
+    </div>
+
+  </header>
+<!-------------------------------------------------------------------------------------------->
+  <main>
+    <div class="seccion__login">
+      <h1 class="seccion__login__title">Iniciar Sesión</h1>
+      <input type="email" class="seccion__login__email" data-tipo="email" name="email" placeholder="Escriba su correo electrónico (ejemplo@ejemplo.com)" required title="Por favor ingrese un E-mail valido">
+      <input type="password" name="" id="" class="seccion__login__password" placeholder="Escriba su contraseña" required title="Por favor ingrese una contraseña valida">
+      <button type="submit" class="seccion__login__boton">Iniciar Sesión</button>
+    </div>
+  </main>
+<!-------------------------------------------------------------------------------------------->
+<footer>
+  <div class="seccion__contacto">
+    <div class="seccion__contacto__title__box">
+      <img src="./assets/img/logo1.svg" alt="" class="seccion__contacto__logo">
+      <h1 class="seccion__contacto__title">Alura Geek</h1>      
+    </div>
+    <ul class="seccion__contacto__link">
+      <li class="contacto__link"><a href="#">Quienes somos</a></li>
+      <li class="contacto__link"><a href="#">Política de privacidad</a></li>
+      <li class="contacto__link"><a href="#">Programa de fidelidad</a></li>
+      <li class="contacto__link"><a href="#">Nuestras Tienda</a></li>
+      <li class="contacto__link"><a href="#">Quiero ser franquiciado</a></li>
+      <li class="contacto__link"><a href="#">Anuncie aquí</a></li>
+    </ul>
+    <div class="contacto">
+      <h1 class="contacto__title">Hable con nosotros</h1>
+      <input type="text" name="" id="" class="contacto__nombre" placeholder="Nombre">
+      <textarea name="" id="" cols="30" rows="10" class="contacto__mensaje" placeholder="Escriba su mensaje"></textarea>
+      <button type="submit" class="contacto__boton">Enviar Mensaje</button>
+    </div>
+  </div>
+
+  <div class="rodapie">
+    <p class="rodapie__info">Desarrollado por Alejo Torres - 2023</p>
+  </div>
+
+</footer>
+
+
+</body>

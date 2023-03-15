@@ -1,0 +1,4 @@
+.lista__productos{
+    display: flex;
+    justify-content: space-evenly;
+}
