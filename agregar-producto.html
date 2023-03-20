@@ -42,7 +42,6 @@
 
   <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie.css">
   <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie__info.css">
-  <link rel="stylesheet" href="./assets/css/footer/rodapie/rodapie__titulo.css">
 
   <title>AluraGeek</title>
 </head>
@@ -69,19 +68,27 @@
 
   </header>
 <!-------------------------------------------------------------------------------------------->
-  <main>
+ <main>
     <div class="agregar__producto">
       <h1 class="agregar__producto__title">Agrega nuevo producto</h1>
-      <div class="agregar__info__box">
-        <input type="text" class="agregar__info" placeholder="URL de la imagen">
+
+      
+      <form class="agregar__info__box">
+        <div>
+          <label for="imagen">Imagen:</label>
+          <input type="file" id="imagen">
+          <button type="button" id="buscar-imagen">Buscar imagen</button>
+        </div>
         <input type="text" class="agregar__info" placeholder="Categoría">
         <input type="text" class="agregar__info" placeholder="Nombre del producto">
         <input type="text" class="agregar__info" placeholder="Precio del producto">
         <textarea name="" id="" cols="30" rows="10" class="agregar__info__descripcion" placeholder="Descripción del producto"></textarea>
-        <button class="agregar__info__boton" type="submit">Agregar</button>
-      </div>
+        <button  data-form-btn class="agregar__info__boton" type="submit">Agregar</button>
+      </form>
     </div>
   </main>
+
+
 <!-------------------------------------------------------------------------------------------->
   <footer>
     <div class="seccion__contacto">
@@ -89,6 +96,7 @@
         <img src="./assets/img/logo1.svg" alt="" class="seccion__contacto__logo">
         <h1 class="seccion__contacto__title">Alura Geek</h1>      
       </div>
+
       <ul class="seccion__contacto__link">
         <li class="contacto__link"><a href="#">Quienes somos</a></li>
         <li class="contacto__link"><a href="#">Política de privacidad</a></li>
@@ -111,5 +119,6 @@
 
   </footer>
 
-
+<script src="./scripts/carga-producto.js"></script>
 </body>
+</html>
