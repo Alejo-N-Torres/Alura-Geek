@@ -12,3 +12,16 @@
     padding-bottom: 1rem;
     background: var(--background);
 }
+
+@media screen and (max-width: 960px){
+    .navbar{
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navbar{
+        justify-content: center;
+    }
+}

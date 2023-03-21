@@ -16,3 +16,11 @@
 .cuerpo__boton:hover{
     background-color: var(--color-caracteristico2);
 }
+
+
+@media screen and (max-width: 960px){
+    .cuerpo__boton a {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+}

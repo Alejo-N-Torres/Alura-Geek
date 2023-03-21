@@ -3,3 +3,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 480px){
+    .navbar__login {
+        order: 2;
+    }
+}

@@ -16,3 +16,11 @@
 .contacto__boton:hover{
     background-color: var(--color-caracteristico2);
 }
+
+
+
+@media screen and (max-width:960px){
+    .contacto__boton{
+        height: 3.125rem;
+    }
+}

@@ -3,6 +3,7 @@
 
 .seccion__contacto{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10rem;
     padding-top: 2rem;
@@ -10,4 +11,12 @@
     padding-left: 5rem;
     padding-right: 5rem;
     background-color: var(--background-2);
+}
+@media screen and (max-width:960px) {
+    .seccion__contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
 }

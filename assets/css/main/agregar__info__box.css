@@ -8,3 +8,10 @@
     gap: 2rem;
     padding-bottom: 4rem;
 }
+
+@media screen and (max-width: 960px){
+    .agregar__info__box{
+        box-sizing: content-box;
+        width: 70%;
+    }
+}

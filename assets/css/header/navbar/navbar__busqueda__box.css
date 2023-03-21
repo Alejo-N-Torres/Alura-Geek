@@ -7,3 +7,9 @@
     border: solid 2px var(--background-2);
 
 }
+
+@media screen and (max-width: 480px){
+    .navbar__busqueda__box{
+        order: 3;
+    }
+}

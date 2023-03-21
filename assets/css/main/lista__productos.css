@@ -1,4 +1,27 @@
 .lista__productos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    gap: 3rem;
+}
+
+
+
+
+@media screen and (max-width:960px) {
+    .lista__productos{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .lista__productos{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 2rem;
+    }
 }

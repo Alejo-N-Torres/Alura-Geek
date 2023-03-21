@@ -4,3 +4,12 @@
     justify-content: center;
     gap: 0.75rem;
 }
+
+
+@media screen and (max-width:960px){
+    .seccion__contacto__link{
+        flex-direction: initial;
+        flex-wrap: wrap;
+        gap: 1rem;;
+    }
+}
